@@ -234,7 +234,7 @@
                                             <constraint firstAttribute="height" constant="38.666666666666657" id="W1P-CP-jO9"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Velog">
+                                        <buttonConfiguration key="configuration" style="plain" title="Blog">
                                             <color key="baseForegroundColor" red="0.41574582589999998" green="0.44697650509999998" blue="0.97739109850000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
