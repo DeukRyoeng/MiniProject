@@ -30,9 +30,16 @@ class SHINViewController: UIViewController {
     
     @IBAction func lablebutton(_ sender: Any) {
         print("자기소개")
-        lable1.text = introduce[count]
-        lable2.text = chack[count]
-        count = count + 1
+        if count >= introduce.count {
+            print("Index out of range")
+            // 필요시 여기서 추가 처리를 할 수 있습니다.
+        } else if introduce[count] == "last" {
+            print("마지막 인덱스")
+        } else {
+            lable1.text = introduce[count]
+            lable2.text = chack[count]
+            count += 1
+        }
         
     }
     @IBAction func VelogButton(_ sender: Any) {
