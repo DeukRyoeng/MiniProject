@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -111,20 +111,54 @@
             </objects>
             <point key="canvasLocation" x="-538.16793893129773" y="-1.4084507042253522"/>
         </scene>
-        <!--View Controller-->
+        <!--Yu JeongVC-->
         <scene sceneID="Xq5-EZ-kpQ">
             <objects>
-                <viewController id="31W-Lz-2Db" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YJVC" id="31W-Lz-2Db" customClass="yuJeongVC" customModule="Team_member" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uRG-AW-OFS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ANg-yT-5Em">
+                                <rect key="frame" x="30" y="139" width="333" height="792"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yujeong1" translatesAutoresizingMaskIntoConstraints="NO" id="oO6-ih-c1S">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="130"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="aeO-j9-ue8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPQ-Eo-cuI">
+                                        <rect key="frame" x="0.0" y="130" width="333" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Pxl-hj-wfr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="next-2" translatesAutoresizingMaskIntoConstraints="NO" id="sVj-BO-saA">
+                                        <rect key="frame" x="0.0" y="280" width="333" height="512"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="400" id="ATJ-5k-gyK"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uDY-xx-0TS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.95908301767676774" green="0.89312737154898436" blue="0.70081592817812999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="uDY-xx-0TS" firstAttribute="trailing" secondItem="ANg-yT-5Em" secondAttribute="trailing" constant="30" id="itG-YE-drY"/>
+                            <constraint firstItem="ANg-yT-5Em" firstAttribute="top" secondItem="uDY-xx-0TS" secondAttribute="top" constant="80" id="ncU-oc-0a8"/>
+                            <constraint firstItem="ANg-yT-5Em" firstAttribute="leading" secondItem="uDY-xx-0TS" secondAttribute="leading" constant="30" id="oMp-oi-A8O"/>
+                            <constraint firstItem="uDY-xx-0TS" firstAttribute="bottom" secondItem="ANg-yT-5Em" secondAttribute="bottom" constant="80" id="qr0-p1-YBE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GRm-2a-ebk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="807" y="783"/>
+            <point key="canvasLocation" x="806.87022900763361" y="782.3943661971831"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5uZ-r6-xTH">
@@ -230,6 +264,8 @@
         <image name="SangKyu" width="160" height="175.5"/>
         <image name="YooJeong" width="159.5" height="174.5"/>
         <image name="jinKyu" width="160" height="175.5"/>
+        <image name="next-2" width="512" height="512"/>
+        <image name="yujeong1" width="942" height="942.5"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
