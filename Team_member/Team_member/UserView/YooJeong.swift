@@ -53,10 +53,11 @@ class yuJengVC: ViewController {
     }
     
  
+
     @IBAction func didTapUrl(_ sender: Any) {
-//    let url = URL (string : "https://ujoy.tistory.com")!
-//        UIApplication.shared.open(url)
+    if let url = URL (string : "https://ujoy.tistory.com"){
+            UIApplication.shared.open(url)
+        }
     }
 
-    
 }
