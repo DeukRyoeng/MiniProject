@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func yooJeong(_ sender: UIButton) {
+        goToView(storyBoardName: "YJVC")
     }
     @IBAction func jinKyu(_ sender: UIButton) {
         goToView(storyBoardName: "JKVC")
