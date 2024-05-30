@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A61E7E2C08675200662981 /* SHINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A61E7D2C08675200662981 /* SHINViewController.swift */; };
 		A810749A2C0804C700B12E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81074992C0804C700B12E43 /* AppDelegate.swift */; };
 		A810749C2C0804C700B12E43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810749B2C0804C700B12E43 /* SceneDelegate.swift */; };
 		A810749E2C0804C700B12E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810749D2C0804C700B12E43 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14A61E7D2C08675200662981 /* SHINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHINViewController.swift; sourceTree = "<group>"; };
 		A81074962C0804C700B12E43 /* Team_member.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team_member.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81074992C0804C700B12E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A810749B2C0804C700B12E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A811DF9D2C082F0E00230A88 /* YooJeong.swift */,
 				A811DF9F2C082F2200230A88 /* Sangkyu.swift */,
 				A811DFA12C082F3300230A88 /* DeukRyoeng.swift */,
+				14A61E7D2C08675200662981 /* SHINViewController.swift */,
 			);
 			path = UserView;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				A811DF9B2C082EEA00230A88 /* JinKyuView.swift in Sources */,
 				A810749E2C0804C700B12E43 /* ViewController.swift in Sources */,
 				A810749A2C0804C700B12E43 /* AppDelegate.swift in Sources */,
+				14A61E7E2C08675200662981 /* SHINViewController.swift in Sources */,
 				A811DFA02C082F2200230A88 /* Sangkyu.swift in Sources */,
 				A811DFA22C082F3300230A88 /* DeukRyoeng.swift in Sources */,
 				A810749C2C0804C700B12E43 /* SceneDelegate.swift in Sources */,
