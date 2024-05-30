@@ -16,19 +16,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        configureButton(jinkyu)
-        configureButton(yoojeong)
-        configureButton(sangkyu)
-        configureButton(deukryeong)
+        configureButton(button: deukryeong)
+        configureButton(button: yoojeong)
+        configureButton(button: sangkyu)
+        configureButton(button: jinkyu)
     }
     //MARK: - 이미지 서클, 쉐도우 효과
-    func configureButton(_ button: UIButton) {
-        button.layer.cornerRadius = button.frame.height / 2
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.clear.cgColor
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.clipsToBounds = true
+    func configureButton(button: UIButton!) {
+        guard let btn = button else { return }
+
+        btn.layer.cornerRadius = button.frame.height / 2
+        btn.layer.borderWidth = 1
+        btn.layer.borderColor = UIColor.clear.cgColor
+        btn.translatesAutoresizingMaskIntoConstraints = false
+        btn.clipsToBounds = true
     }
     
     //MARK: - 화면전환 함수 스토리보드아이디 생성 후 호출해주면 끝 !!!!!
@@ -50,6 +51,7 @@ class ViewController: UIViewController {
     @IBAction func yooJeong(_ sender: UIButton) {
     }
     @IBAction func jinKyu(_ sender: UIButton) {
+        goToView(storyBoardName: "JKVC")
         
     }
     

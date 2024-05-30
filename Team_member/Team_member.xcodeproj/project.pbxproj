@@ -16,7 +16,6 @@
 		A81074A62C0804C900B12E43 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A81074A52C0804C900B12E43 /* Base */; };
 		A811DF9B2C082EEA00230A88 /* JinKyuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811DF9A2C082EE900230A88 /* JinKyuView.swift */; };
 		A811DF9E2C082F0E00230A88 /* YooJeong.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811DF9D2C082F0E00230A88 /* YooJeong.swift */; };
-		A811DFA02C082F2200230A88 /* Sangkyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811DF9F2C082F2200230A88 /* Sangkyu.swift */; };
 		A811DFA22C082F3300230A88 /* DeukRyoeng.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811DFA12C082F3300230A88 /* DeukRyoeng.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		A81074A72C0804C900B12E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A811DF9A2C082EE900230A88 /* JinKyuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JinKyuView.swift; sourceTree = "<group>"; };
 		A811DF9D2C082F0E00230A88 /* YooJeong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YooJeong.swift; sourceTree = "<group>"; };
-		A811DF9F2C082F2200230A88 /* Sangkyu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sangkyu.swift; sourceTree = "<group>"; };
 		A811DFA12C082F3300230A88 /* DeukRyoeng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeukRyoeng.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 			children = (
 				A811DF9A2C082EE900230A88 /* JinKyuView.swift */,
 				A811DF9D2C082F0E00230A88 /* YooJeong.swift */,
-				A811DF9F2C082F2200230A88 /* Sangkyu.swift */,
 				A811DFA12C082F3300230A88 /* DeukRyoeng.swift */,
 				14A61E7D2C08675200662981 /* SHINViewController.swift */,
 			);
@@ -166,7 +163,6 @@
 				A810749E2C0804C700B12E43 /* ViewController.swift in Sources */,
 				A810749A2C0804C700B12E43 /* AppDelegate.swift in Sources */,
 				14A61E7E2C08675200662981 /* SHINViewController.swift in Sources */,
-				A811DFA02C082F2200230A88 /* Sangkyu.swift in Sources */,
 				A811DFA22C082F3300230A88 /* DeukRyoeng.swift in Sources */,
 				A810749C2C0804C700B12E43 /* SceneDelegate.swift in Sources */,
 			);
