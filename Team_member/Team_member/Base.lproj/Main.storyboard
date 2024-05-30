@@ -36,10 +36,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DoJ-LH-0TE">
-                                <rect key="frame" x="15" y="294.66666666666669" width="184" height="227.66666666666669"/>
+                                <rect key="frame" x="15" y="294.66666666666669" width="183.66666666666666" height="226.66666666666669"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gur-B9-OEd">
-                                        <rect key="frame" x="0.0" y="0.0" width="184" height="189.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="183.66666666666666" height="188.66666666666666"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="YooJeong"/>
                                         <connections>
@@ -47,7 +47,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbd-iA-zY3">
-                                        <rect key="frame" x="60.333333333333329" y="197.66666666666663" width="63.666666666666671" height="30"/>
+                                        <rect key="frame" x="60" y="196.66666666666663" width="63.666666666666657" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -211,7 +211,7 @@
         <!--View Controller-->
         <scene sceneID="CO6-a1-0AB">
             <objects>
-                <viewController id="J7m-CG-cYK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JKVC" id="J7m-CG-cYK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i3E-C7-jPi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,7 +228,7 @@
         <image name="DeukRyeong" width="160" height="175.5"/>
         <image name="DeukRyoeng_Background" width="182.5" height="307"/>
         <image name="SangKyu" width="160" height="175.5"/>
-        <image name="YooJeong" width="160" height="175.5"/>
+        <image name="YooJeong" width="159.5" height="174.5"/>
         <image name="jinKyu" width="160" height="175.5"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
